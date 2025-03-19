@@ -59,9 +59,13 @@ public:
 int main() {
     LinkedList myList;  
 
-    myList.append(10);  
-    myList.append(20);
-    myList.append(30);
+    myList.append(1);  
+    myList.append(2);
+    myList.append(3); 
+    myList.append(4);
+    myList.append(5);
+    myList.append(6); 
+    myList.append(7);
 
     std::cout << "Односвязный список: ";
     myList.printList(); 
